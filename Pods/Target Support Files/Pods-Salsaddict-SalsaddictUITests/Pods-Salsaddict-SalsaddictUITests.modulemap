@@ -1,0 +1,6 @@
+framework module Pods_Salsaddict_SalsaddictUITests {
+  umbrella header "Pods-Salsaddict-SalsaddictUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E6A4FF282FAD1E009ED80C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A4FE282FAD1E009ED80C /* AppDelegate.swift */; };
+		23E6A501282FAD1E009ED80C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A500282FAD1E009ED80C /* SceneDelegate.swift */; };
+		23E6A503282FAD1E009ED80C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A502282FAD1E009ED80C /* ViewController.swift */; };
+		23E6A506282FAD1E009ED80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E6A504282FAD1E009ED80C /* Main.storyboard */; };
+		23E6A509282FAD1E009ED80C /* Salsaddict.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A507282FAD1E009ED80C /* Salsaddict.xcdatamodeld */; };
+		23E6A50B282FAD21009ED80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E6A50A282FAD21009ED80C /* Assets.xcassets */; };
+		23E6A50E282FAD21009ED80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E6A50C282FAD21009ED80C /* LaunchScreen.storyboard */; };
+		23E6A519282FAD22009ED80C /* SalsaddictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A518282FAD22009ED80C /* SalsaddictTests.swift */; };
+		23E6A523282FAD22009ED80C /* SalsaddictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A522282FAD22009ED80C /* SalsaddictUITests.swift */; };
+		23E6A525282FAD22009ED80C /* SalsaddictUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A524282FAD22009ED80C /* SalsaddictUITestsLaunchTests.swift */; };
+		23F15366282FE529001260A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23F15365282FE529001260A2 /* GoogleService-Info.plist */; };
+		23F15367282FE529001260A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23F15365282FE529001260A2 /* GoogleService-Info.plist */; };
+		23F15368282FE529001260A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23F15365282FE529001260A2 /* GoogleService-Info.plist */; };
+		4AB63B8554918A7A22AC2B00 /* Pods_Salsaddict.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B1F2E1707C60DED269F98E /* Pods_Salsaddict.framework */; };
+		B6ACF575598F6DDB340EA0A9 /* Pods_SalsaddictTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6422542731CCF8B44629F48D /* Pods_SalsaddictTests.framework */; };
+		CBA41CD4D95030AFB4393D5F /* Pods_Salsaddict_SalsaddictUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8063E3C859CFBEAE021FB81 /* Pods_Salsaddict_SalsaddictUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23E6A515282FAD22009ED80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23E6A4F3282FAD1E009ED80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E6A4FA282FAD1E009ED80C;
+			remoteInfo = Salsaddict;
+		};
+		23E6A51F282FAD22009ED80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23E6A4F3282FAD1E009ED80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E6A4FA282FAD1E009ED80C;
+			remoteInfo = Salsaddict;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23E6A4FB282FAD1E009ED80C /* Salsaddict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salsaddict.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E6A4FE282FAD1E009ED80C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23E6A500282FAD1E009ED80C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23E6A502282FAD1E009ED80C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23E6A505282FAD1E009ED80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23E6A508282FAD1E009ED80C /* Salsaddict.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Salsaddict.xcdatamodel; sourceTree = "<group>"; };
+		23E6A50A282FAD21009ED80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23E6A50D282FAD21009ED80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23E6A50F282FAD21009ED80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E6A514282FAD22009ED80C /* SalsaddictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalsaddictTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E6A518282FAD22009ED80C /* SalsaddictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalsaddictTests.swift; sourceTree = "<group>"; };
+		23E6A51E282FAD22009ED80C /* SalsaddictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalsaddictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E6A522282FAD22009ED80C /* SalsaddictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalsaddictUITests.swift; sourceTree = "<group>"; };
+		23E6A524282FAD22009ED80C /* SalsaddictUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalsaddictUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23F15365282FE529001260A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28E09E2F84111C5F6F3A2251 /* Pods-Salsaddict.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salsaddict.debug.xcconfig"; path = "Target Support Files/Pods-Salsaddict/Pods-Salsaddict.debug.xcconfig"; sourceTree = "<group>"; };
+		6422542731CCF8B44629F48D /* Pods_SalsaddictTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalsaddictTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		647B305F7F3C0066169FEC7A /* Pods-SalsaddictTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalsaddictTests.debug.xcconfig"; path = "Target Support Files/Pods-SalsaddictTests/Pods-SalsaddictTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A21DCB8697BDFB86363133B1 /* Pods-Salsaddict-SalsaddictUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salsaddict-SalsaddictUITests.debug.xcconfig"; path = "Target Support Files/Pods-Salsaddict-SalsaddictUITests/Pods-Salsaddict-SalsaddictUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB2BBBAD9B459710E8894180 /* Pods-Salsaddict-SalsaddictUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salsaddict-SalsaddictUITests.release.xcconfig"; path = "Target Support Files/Pods-Salsaddict-SalsaddictUITests/Pods-Salsaddict-SalsaddictUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8B1F2E1707C60DED269F98E /* Pods_Salsaddict.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salsaddict.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28328E679A0059234F5DB0E /* Pods-SalsaddictTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalsaddictTests.release.xcconfig"; path = "Target Support Files/Pods-SalsaddictTests/Pods-SalsaddictTests.release.xcconfig"; sourceTree = "<group>"; };
+		F302D6F9856D01CEEEB76AD9 /* Pods-Salsaddict.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salsaddict.release.xcconfig"; path = "Target Support Files/Pods-Salsaddict/Pods-Salsaddict.release.xcconfig"; sourceTree = "<group>"; };
+		F8063E3C859CFBEAE021FB81 /* Pods_Salsaddict_SalsaddictUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salsaddict_SalsaddictUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23E6A4F8282FAD1E009ED80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB63B8554918A7A22AC2B00 /* Pods_Salsaddict.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6A511282FAD22009ED80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ACF575598F6DDB340EA0A9 /* Pods_SalsaddictTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6A51B282FAD22009ED80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA41CD4D95030AFB4393D5F /* Pods_Salsaddict_SalsaddictUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E6A4F2282FAD1E009ED80C = {
+			isa = PBXGroup;
+			children = (
+				23E6A4FD282FAD1E009ED80C /* Salsaddict */,
+				23E6A517282FAD22009ED80C /* SalsaddictTests */,
+				23E6A521282FAD22009ED80C /* SalsaddictUITests */,
+				23E6A4FC282FAD1E009ED80C /* Products */,
+				A7595AF88DA5C6ADEDE49CEB /* Pods */,
+				AEF4AAC0990171044B97B558 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23E6A4FC282FAD1E009ED80C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23E6A4FB282FAD1E009ED80C /* Salsaddict.app */,
+				23E6A514282FAD22009ED80C /* SalsaddictTests.xctest */,
+				23E6A51E282FAD22009ED80C /* SalsaddictUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23E6A4FD282FAD1E009ED80C /* Salsaddict */ = {
+			isa = PBXGroup;
+			children = (
+				23E6A4FE282FAD1E009ED80C /* AppDelegate.swift */,
+				23E6A500282FAD1E009ED80C /* SceneDelegate.swift */,
+				23E6A502282FAD1E009ED80C /* ViewController.swift */,
+				23F15365282FE529001260A2 /* GoogleService-Info.plist */,
+				23E6A504282FAD1E009ED80C /* Main.storyboard */,
+				23E6A50A282FAD21009ED80C /* Assets.xcassets */,
+				23E6A50C282FAD21009ED80C /* LaunchScreen.storyboard */,
+				23E6A50F282FAD21009ED80C /* Info.plist */,
+				23E6A507282FAD1E009ED80C /* Salsaddict.xcdatamodeld */,
+			);
+			path = Salsaddict;
+			sourceTree = "<group>";
+		};
+		23E6A517282FAD22009ED80C /* SalsaddictTests */ = {
+			isa = PBXGroup;
+			children = (
+				23E6A518282FAD22009ED80C /* SalsaddictTests.swift */,
+			);
+			path = SalsaddictTests;
+			sourceTree = "<group>";
+		};
+		23E6A521282FAD22009ED80C /* SalsaddictUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23E6A522282FAD22009ED80C /* SalsaddictUITests.swift */,
+				23E6A524282FAD22009ED80C /* SalsaddictUITestsLaunchTests.swift */,
+			);
+			path = SalsaddictUITests;
+			sourceTree = "<group>";
+		};
+		A7595AF88DA5C6ADEDE49CEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28E09E2F84111C5F6F3A2251 /* Pods-Salsaddict.debug.xcconfig */,
+				F302D6F9856D01CEEEB76AD9 /* Pods-Salsaddict.release.xcconfig */,
+				A21DCB8697BDFB86363133B1 /* Pods-Salsaddict-SalsaddictUITests.debug.xcconfig */,
+				BB2BBBAD9B459710E8894180 /* Pods-Salsaddict-SalsaddictUITests.release.xcconfig */,
+				647B305F7F3C0066169FEC7A /* Pods-SalsaddictTests.debug.xcconfig */,
+				D28328E679A0059234F5DB0E /* Pods-SalsaddictTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AEF4AAC0990171044B97B558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8B1F2E1707C60DED269F98E /* Pods_Salsaddict.framework */,
+				F8063E3C859CFBEAE021FB81 /* Pods_Salsaddict_SalsaddictUITests.framework */,
+				6422542731CCF8B44629F48D /* Pods_SalsaddictTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23E6A4FA282FAD1E009ED80C /* Salsaddict */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E6A528282FAD22009ED80C /* Build configuration list for PBXNativeTarget "Salsaddict" */;
+			buildPhases = (
+				70EB4C18DF3A47D68F90E78F /* [CP] Check Pods Manifest.lock */,
+				23E6A4F7282FAD1E009ED80C /* Sources */,
+				23E6A4F8282FAD1E009ED80C /* Frameworks */,
+				23E6A4F9282FAD1E009ED80C /* Resources */,
+				23F15369282FE5C1001260A2 /* ShellScript */,
+				90C5E933C54494CE27100ED9 /* [CP] Embed Pods Frameworks */,
+				67D62F3B0223FA415C490CF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Salsaddict;
+			productName = Salsaddict;
+			productReference = 23E6A4FB282FAD1E009ED80C /* Salsaddict.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23E6A513282FAD22009ED80C /* SalsaddictTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E6A52B282FAD22009ED80C /* Build configuration list for PBXNativeTarget "SalsaddictTests" */;
+			buildPhases = (
+				C215F52BB3555887BD9E8DE8 /* [CP] Check Pods Manifest.lock */,
+				23E6A510282FAD22009ED80C /* Sources */,
+				23E6A511282FAD22009ED80C /* Frameworks */,
+				23E6A512282FAD22009ED80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E6A516282FAD22009ED80C /* PBXTargetDependency */,
+			);
+			name = SalsaddictTests;
+			productName = SalsaddictTests;
+			productReference = 23E6A514282FAD22009ED80C /* SalsaddictTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23E6A51D282FAD22009ED80C /* SalsaddictUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E6A52E282FAD22009ED80C /* Build configuration list for PBXNativeTarget "SalsaddictUITests" */;
+			buildPhases = (
+				C638CC2EEBBE979B55A345B4 /* [CP] Check Pods Manifest.lock */,
+				23E6A51A282FAD22009ED80C /* Sources */,
+				23E6A51B282FAD22009ED80C /* Frameworks */,
+				23E6A51C282FAD22009ED80C /* Resources */,
+				4D115CF9564F17B4934F0C7B /* [CP] Embed Pods Frameworks */,
+				A712ACFEF20BCEAE93B0E082 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E6A520282FAD22009ED80C /* PBXTargetDependency */,
+			);
+			name = SalsaddictUITests;
+			productName = SalsaddictUITests;
+			productReference = 23E6A51E282FAD22009ED80C /* SalsaddictUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23E6A4F3282FAD1E009ED80C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					23E6A4FA282FAD1E009ED80C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					23E6A513282FAD22009ED80C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 23E6A4FA282FAD1E009ED80C;
+					};
+					23E6A51D282FAD22009ED80C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 23E6A4FA282FAD1E009ED80C;
+					};
+				};
+			};
+			buildConfigurationList = 23E6A4F6282FAD1E009ED80C /* Build configuration list for PBXProject "Salsaddict" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23E6A4F2282FAD1E009ED80C;
+			productRefGroup = 23E6A4FC282FAD1E009ED80C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23E6A4FA282FAD1E009ED80C /* Salsaddict */,
+				23E6A513282FAD22009ED80C /* SalsaddictTests */,
+				23E6A51D282FAD22009ED80C /* SalsaddictUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23E6A4F9282FAD1E009ED80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E6A50E282FAD21009ED80C /* LaunchScreen.storyboard in Resources */,
+				23F15366282FE529001260A2 /* GoogleService-Info.plist in Resources */,
+				23E6A50B282FAD21009ED80C /* Assets.xcassets in Resources */,
+				23E6A506282FAD1E009ED80C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6A512282FAD22009ED80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F15367282FE529001260A2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6A51C282FAD22009ED80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F15368282FE529001260A2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23F15369282FE5C1001260A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		4D115CF9564F17B4934F0C7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salsaddict-SalsaddictUITests/Pods-Salsaddict-SalsaddictUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salsaddict-SalsaddictUITests/Pods-Salsaddict-SalsaddictUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salsaddict-SalsaddictUITests/Pods-Salsaddict-SalsaddictUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D62F3B0223FA415C490CF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salsaddict/Pods-Salsaddict-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salsaddict/Pods-Salsaddict-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salsaddict/Pods-Salsaddict-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70EB4C18DF3A47D68F90E78F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salsaddict-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90C5E933C54494CE27100ED9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salsaddict/Pods-Salsaddict-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salsaddict/Pods-Salsaddict-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salsaddict/Pods-Salsaddict-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A712ACFEF20BCEAE93B0E082 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salsaddict-SalsaddictUITests/Pods-Salsaddict-SalsaddictUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salsaddict-SalsaddictUITests/Pods-Salsaddict-SalsaddictUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salsaddict-SalsaddictUITests/Pods-Salsaddict-SalsaddictUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C215F52BB3555887BD9E8DE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SalsaddictTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C638CC2EEBBE979B55A345B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salsaddict-SalsaddictUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23E6A4F7282FAD1E009ED80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E6A503282FAD1E009ED80C /* ViewController.swift in Sources */,
+				23E6A4FF282FAD1E009ED80C /* AppDelegate.swift in Sources */,
+				23E6A501282FAD1E009ED80C /* SceneDelegate.swift in Sources */,
+				23E6A509282FAD1E009ED80C /* Salsaddict.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6A510282FAD22009ED80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E6A519282FAD22009ED80C /* SalsaddictTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6A51A282FAD22009ED80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E6A525282FAD22009ED80C /* SalsaddictUITestsLaunchTests.swift in Sources */,
+				23E6A523282FAD22009ED80C /* SalsaddictUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23E6A516282FAD22009ED80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23E6A4FA282FAD1E009ED80C /* Salsaddict */;
+			targetProxy = 23E6A515282FAD22009ED80C /* PBXContainerItemProxy */;
+		};
+		23E6A520282FAD22009ED80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23E6A4FA282FAD1E009ED80C /* Salsaddict */;
+			targetProxy = 23E6A51F282FAD22009ED80C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23E6A504282FAD1E009ED80C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23E6A505282FAD1E009ED80C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23E6A50C282FAD21009ED80C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23E6A50D282FAD21009ED80C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23E6A526282FAD22009ED80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23E6A527282FAD22009ED80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23E6A529282FAD22009ED80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E09E2F84111C5F6F3A2251 /* Pods-Salsaddict.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5UMH6EWY8Z;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Salsaddict/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picosu.personal.Salsaddict;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23E6A52A282FAD22009ED80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F302D6F9856D01CEEEB76AD9 /* Pods-Salsaddict.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UMH6EWY8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Salsaddict/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picosu.personal.Salsaddict;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23E6A52C282FAD22009ED80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647B305F7F3C0066169FEC7A /* Pods-SalsaddictTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UMH6EWY8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picosu.personal.SalsaddictTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salsaddict.app/Salsaddict";
+			};
+			name = Debug;
+		};
+		23E6A52D282FAD22009ED80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28328E679A0059234F5DB0E /* Pods-SalsaddictTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UMH6EWY8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picosu.personal.SalsaddictTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salsaddict.app/Salsaddict";
+			};
+			name = Release;
+		};
+		23E6A52F282FAD22009ED80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21DCB8697BDFB86363133B1 /* Pods-Salsaddict-SalsaddictUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UMH6EWY8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picosu.personal.SalsaddictUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salsaddict;
+			};
+			name = Debug;
+		};
+		23E6A530282FAD22009ED80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2BBBAD9B459710E8894180 /* Pods-Salsaddict-SalsaddictUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UMH6EWY8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picosu.personal.SalsaddictUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salsaddict;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23E6A4F6282FAD1E009ED80C /* Build configuration list for PBXProject "Salsaddict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E6A526282FAD22009ED80C /* Debug */,
+				23E6A527282FAD22009ED80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E6A528282FAD22009ED80C /* Build configuration list for PBXNativeTarget "Salsaddict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E6A529282FAD22009ED80C /* Debug */,
+				23E6A52A282FAD22009ED80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E6A52B282FAD22009ED80C /* Build configuration list for PBXNativeTarget "SalsaddictTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E6A52C282FAD22009ED80C /* Debug */,
+				23E6A52D282FAD22009ED80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E6A52E282FAD22009ED80C /* Build configuration list for PBXNativeTarget "SalsaddictUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E6A52F282FAD22009ED80C /* Debug */,
+				23E6A530282FAD22009ED80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23E6A507282FAD1E009ED80C /* Salsaddict.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23E6A508282FAD1E009ED80C /* Salsaddict.xcdatamodel */,
+			);
+			currentVersion = 23E6A508282FAD1E009ED80C /* Salsaddict.xcdatamodel */;
+			path = Salsaddict.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23E6A4F3282FAD1E009ED80C /* Project object */;
+}

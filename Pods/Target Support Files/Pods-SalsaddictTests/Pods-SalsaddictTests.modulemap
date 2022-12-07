@@ -1,0 +1,6 @@
+framework module Pods_SalsaddictTests {
+  umbrella header "Pods-SalsaddictTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
