@@ -7,7 +7,6 @@
 
 import UIKit
 import CoreData
-import Alamofire
 import Firebase
 
 @main

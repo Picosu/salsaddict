@@ -6,7 +6,6 @@ target 'Salsaddict' do
   use_frameworks!
 
   # Pods for Salsaddict
-  pod 'Alamofire'
   pod 'FirebaseUI'
 
   pod 'FirebaseUI/Auth'
