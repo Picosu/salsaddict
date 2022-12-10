@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		007A771662A7BFDC4B77C5D0 /* Pods_Salsaddict_SalsaddictUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE12ED73968EBD7B57CC8D9 /* Pods_Salsaddict_SalsaddictUITests.framework */; };
+		233DEBEF2944B42A007FC013 /* GenerateQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233DEBEE2944B42A007FC013 /* GenerateQRCodeViewController.swift */; };
+		233DEBF02944B42A007FC013 /* GenerateQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233DEBEE2944B42A007FC013 /* GenerateQRCodeViewController.swift */; };
+		233DEBF12944B42A007FC013 /* GenerateQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233DEBEE2944B42A007FC013 /* GenerateQRCodeViewController.swift */; };
 		23E6A4FF282FAD1E009ED80C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A4FE282FAD1E009ED80C /* AppDelegate.swift */; };
 		23E6A501282FAD1E009ED80C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A500282FAD1E009ED80C /* SceneDelegate.swift */; };
 		23E6A503282FAD1E009ED80C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A502282FAD1E009ED80C /* ViewController.swift */; };
@@ -43,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		233DEBEE2944B42A007FC013 /* GenerateQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateQRCodeViewController.swift; sourceTree = "<group>"; };
 		23E6A4FB282FAD1E009ED80C /* Salsaddict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salsaddict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E6A4FE282FAD1E009ED80C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23E6A500282FAD1E009ED80C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 				23E6A4FE282FAD1E009ED80C /* AppDelegate.swift */,
 				23E6A500282FAD1E009ED80C /* SceneDelegate.swift */,
 				23E6A502282FAD1E009ED80C /* ViewController.swift */,
+				233DEBEE2944B42A007FC013 /* GenerateQRCodeViewController.swift */,
 				23F15365282FE529001260A2 /* GoogleService-Info.plist */,
 				23E6A504282FAD1E009ED80C /* Main.storyboard */,
 				23E6A50A282FAD21009ED80C /* Assets.xcassets */,
@@ -439,6 +444,7 @@
 				23E6A503282FAD1E009ED80C /* ViewController.swift in Sources */,
 				23E6A4FF282FAD1E009ED80C /* AppDelegate.swift in Sources */,
 				23E6A501282FAD1E009ED80C /* SceneDelegate.swift in Sources */,
+				233DEBEF2944B42A007FC013 /* GenerateQRCodeViewController.swift in Sources */,
 				23E6A509282FAD1E009ED80C /* Salsaddict.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E6A519282FAD22009ED80C /* SalsaddictTests.swift in Sources */,
+				233DEBF02944B42A007FC013 /* GenerateQRCodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E6A525282FAD22009ED80C /* SalsaddictUITestsLaunchTests.swift in Sources */,
+				233DEBF12944B42A007FC013 /* GenerateQRCodeViewController.swift in Sources */,
 				23E6A523282FAD22009ED80C /* SalsaddictUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,10 +623,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 5UMH6EWY8Z;
+				DEVELOPMENT_TEAM = 2T9Q73YX77;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Salsaddict/Info.plist;
@@ -635,6 +644,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.picosu.personal.Salsaddict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -648,9 +658,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5UMH6EWY8Z;
+				DEVELOPMENT_TEAM = 2T9Q73YX77;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Salsaddict/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -666,6 +677,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.picosu.personal.Salsaddict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

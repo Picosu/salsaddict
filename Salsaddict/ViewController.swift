@@ -9,6 +9,9 @@ import UIKit
 import FirebaseAuth
 
 class ViewController: UIViewController {
+    
+    var shouldPerformSegue = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,12 +30,24 @@ class ViewController: UIViewController {
     }
     
     @IBAction func login(_ sender: AnyObject) {
+        if !shouldPerformSegue {
+            loginFirebase()
+        }
+    }
+
+    func loginFirebase() {
         let email = "maxence.decussac@gmail.com"
         let password = "123456"
         Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
-            print("\(authResult), \(error)")
             guard let strongSelf = self else { return }
+            guard let authResult = authResult else { return }
+            strongSelf.shouldPerformSegue = true
+            print("\(authResult), \(error)")
+
         }
+    }
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        return shouldPerformSegue
     }
     /*
      
